@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Save IDeas</string>
+    <string name="add_new">Add New</string>
+    <string name="add_title">Enter title</string>
+    <string name="add_description">Enter description</string>
+    <string name="no_ideas_yet">No Ideas Yet!</string>
+    <string name="delete">Delete</string>
+    <string name="update_idea">Update IDea</string>
+    <string name="update_idea_button">Update Idea</string>
+</resources>

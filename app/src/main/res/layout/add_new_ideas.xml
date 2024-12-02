@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rounded_background"
+    android:layout_margin="@dimen/margin_4"
+    android:padding="@dimen/padding_4"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <TextView
+            android:id="@+id/title_of_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new"
+            android:textColor="@color/grey"
+            style="@style/ADD_NEW" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_title"
+            style="@style/ADD_TITLE_AND_DESCRIPTION"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/add_description"
+            style="@style/ADD_TITLE_AND_DESCRIPTION"
+            android:layout_marginTop="16dp"
+            android:scrollbars="vertical"
+            android:maxLines="5"
+            android:inputType="textMultiLine" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/custom_style_for_button"
+            android:text="@string/add_new"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SaveIDeas" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.SaveIDeas" parent="Base.Theme.SaveIDeas" />
+
+    <style name="TOOLBAR" parent="Theme.SaveIDeas">
+        <item name="android:background">@color/blue</item>
+    </style>
+
+    <style name="TOOLBAR_TITLE_STYLE" parent="Theme.SaveIDeas">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_8</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="TOOLBAR_SUBTITLE_STYLE" parent="Theme.SaveIDeas">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/text_size_4</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+    <style name="FLOATING_ACTION_BUTTON" parent="Widget.Material3.FloatingActionButton.Primary">
+        <item name="android:backgroundTint">@color/blue</item>
+        <item name="android:tint">@color/white</item>
+        <item name="android:src">@drawable/baseline_add</item>
+    </style>
+
+    <style name="ADD_NEW" parent="Theme.SaveIDeas">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/text_size_9</item>
+        <item name="android:fontFamily">@font/poppins</item>
+    </style>
+
+
+    <style name="ADD_TITLE_AND_DESCRIPTION" parent="Theme.SaveIDeas">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textSize">@dimen/text_size_5</item>
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColorHint">@color/grey</item>
+    </style>
+
+</resources>
